@@ -1,33 +1,89 @@
-# How to fork and clone
-One quick note about cloning this project. If you wish to make commits and push your own code, you'll need to fork the project first. Forking allows you to have your own copy of this repository by adding a duplicate version in your own profile!
+Welcome to Dexus Clothing Store! This documentation provides essential information on setting up and using our online clothing store application. Dexus Clothing Store is built for selling clothing and is hosted on Vercel, a popular hosting platform for web applications.
 
-You can see the fork button in the top right corner of every GitHub project; click it and a copy of the project will be added to your GitHub profile under the same name as the original project.
+# Table of Contents
+Getting Started
 
-<img width="612" alt="github fork" src="https://user-images.githubusercontent.com/10578605/157998981-4bfd1f83-825c-4664-b22d-b2c7d471dc70.png">
+Prerequisites
+Installation
+Usage
 
-After forking the project, simply clone it the way you would from the new forked project in your own GitHub repository and you can commit and push to it freely!
+Navigating the Store
+Browsing Products
+Making a Purchase
+Customization
 
-# After you fork and clone:
+Adding New Products
+Modifying Product Details
+Styling the Store
+Deployment
 
-## Install dependencies
-In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+Deploying to Vercel
+Updating the Application
+Support
 
-## Set your firebase config
+Getting Help
+Reporting Issues
+License
 
-Remember to replace the config variable in your firebase.utils.js with your own config object from the firebase dashboard! Navigate to the project settings gear icon > project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
+# Getting Started
+Prerequisites
+Before using Dexus Clothing Store, you'll need the following:
 
-<img width="1261" alt="Screen Shot 2022-03-11 at 8 51 22 PM" src="https://user-images.githubusercontent.com/10578605/157999158-10e921cc-9ee5-46f6-a0c5-1ae5686f54f3.png">
+A modern web browser (e.g., Google Chrome, Mozilla Firefox)
+Internet access
+Installation
+Dexus Clothing Store is a web application, so there's no installation required. Simply open your web browser and visit our store's URL to start shopping!
 
-# Branching strategy
+# Usage
+Navigating the Store
+When you visit the Dexus Clothing Store website, you'll be greeted with our homepage. From there, you can:
 
-After forking this repository and cloning it down, you will have access to all the lesson branches with code at different checkpoints throughout the course. If for some reason you need to work from the codebase at one of these lesson branch checkpoints, follow these steps:
+Browse the product catalog.
+Use the search bar to find specific clothing items.
+Click on a product to view its details.
+Browsing Products
+You can explore our product catalog by:
 
-1. Checkout to the lesson-# (let's use lesson-15 as an example) branch
-```
-git checkout lesson-15
-```
-2. Branch off from lesson-15. This will create a new branch where the code of lesson-15 is the basis for your new branch. You can name your new branch whatever you want! Let's say we use my-main-branch as the name.
-```
-git checkout -b my-main-branch
-```
-3. Now you can just code on this branch, push code from this branch up to your forked repo etc. The main thing to remember is that you want to be on this branch for your own code, so remember what you named this branch!
+Clicking on product categories or tags to filter items.
+Sorting products by price, popularity, or other criteria.
+Making a Purchase
+To make a purchase:
+
+Click on a product to view its details.
+Select the size and quantity you want.
+Click the "Add to Cart" button.
+Review your cart and click "Checkout" to proceed.
+Enter your shipping and payment information.
+Confirm your order.
+Customization
+Adding New Products
+As an admin or store owner, you can add new products to the store by accessing the admin panel. Please refer to our admin documentation for detailed instructions on adding products.
+
+# Modifying Product Details
+You can also edit product details, such as price, descriptions, and images, from the admin panel. Refer to the admin documentation for guidance on product management.
+
+# Styling the Store
+If you wish to customize the store's appearance, you can access the store's CSS files and make necessary style adjustments to match your brand.
+
+# Deployment
+Deploying to Vercel
+Dexus Clothing Store is hosted on Vercel. To deploy your own instance of the store, follow these steps:
+
+Create a Vercel account if you don't have one.
+Connect your Vercel account to your repository containing the store's code.
+Configure the deployment settings, such as environment variables.
+Deploy the application to Vercel.
+For detailed deployment instructions, please refer to the Vercel documentation.
+
+# Updating the Application
+To keep your store up-to-date, periodically check for updates to the application code. When updates are available, follow the deployment process to apply the changes to your hosted instance.
+
+# Support
+Getting Help
+If you encounter any issues or have questions about using Dexus Clothing Store, you can reach out to our support team through the contact information provided on our website.
+
+# Reporting Issues
+If you identify any bugs or problems with the application, please report them on our GitHub repository's issue tracker. Be sure to include detailed information about the issue and steps to reproduce it.
+
+# License
+Dexus Clothing Store is distributed under the MIT License, which grants you certain rights to use and modify the software. Please review the full license for more information.
